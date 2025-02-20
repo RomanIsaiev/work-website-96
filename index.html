@@ -3,18 +3,149 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Активація сили Подяки</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-    <header class="header"><div class="container"></div></header>
     <main>
-      <section></section>
+      <section class="hero">
+        <div class="container">
+          <p class="short-info">3- денний практичний інтенсив</p>
+          <h1 class="main-title">Активація сили Подяки</h1>
+          <p class="desc">
+            інтенсив для відкриття достатку та енергетичного прориву
+          </p>
+          <p class="date">2 березня 2025 року</p>
+          <p class="time">18:00 Неділя</p>
+        </div>
+      </section>
+      <section class="you-get">
+        <div class="container">
+          <h2 class="title">Що ви отримаєте на інтенсиві за 3 дні:</h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture>
+                <source
+                  srcset="
+                    ./src/img/list/1-desk-1x.png 1x,
+                    ./src/img/list/1-desk-2x.png 2x
+                  "
+                  media="(min-width: 1280px)"
+                  width="42"
+                  height="42" />
+                <source
+                  srcset="
+                    ./src/img/list/1-1x.png 1x,
+                    ./src/img/list/1-2x.png 2x
+                  "
+                  width="18"
+                  height="18" />
+                <img
+                  class="item-image"
+                  src="./src/img/list/1-1x.png"
+                  alt="emoji"
+                  width="18"
+                  height="18"
+              /></picture>
+              <p class="item-text">
+                Відкриєте потоки достатку та можливостей через силу подяки
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/list/2-desk-1x.png 1x,
+                    ./src/img/list/2-desk-2x.png 2x
+                  "
+                  media="(min-width: 1280px)"
+                  width="42"
+                  height="42" />
+                <source
+                  srcset="
+                    ./src/img/list/2-1x.png 1x,
+                    ./src/img/list/2-2x.png 2x
+                  "
+                  width="18"
+                  height="18" />
+                <img
+                  class="item-image"
+                  src="./src/img/list/2-1x.png"
+                  alt="emoji"
+                  width="18"
+                  height="18"
+              /></picture>
+              <p class="item-text">
+                Переналаштуєте свою енергію на процвітання за допомогою
+                <span>Безлогічного методу</span>
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/list/3-desk-1x.png 1x,
+                    ./src/img/list/3-desk-2x.png 2x
+                  "
+                  media="(min-width: 1280px)"
+                  width="42"
+                  height="42" />
+                <source
+                  srcset="
+                    ./src/img/list/3-1x.png 1x,
+                    ./src/img/list/3-2x.png 2x
+                  "
+                  width="18"
+                  height="18" />
+                <img
+                  class="item-image"
+                  src="./src/img/list/3-1x.png"
+                  alt="emoji"
+                  width="18"
+                  height="18"
+              /></picture>
+              <p class="item-text">
+                Усвідомите та звільнитесь від блоків, що заважають приймати
+                блага
+              </p>
+            </li>
+          </ul>
+          <p class="free-text">БЕЗКОШТОВНИЙ ІНТЕНСИВ!</p>
+          <div class="marquee-container">
+            <p class="marquee-text">Бронюйте місце</p>
+          </div>
+          <p class="book-place">
+            Бронюйте місце на <br />
+            <span>безкоштовний інтенсив!</span>
+          </p>
+          <a
+            class="btn"
+            target="_blank"
+            rel="nofollow"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSed8UrLyWTOXtpsmcBowTcOY6k-d6Lg83ziSHwCiP7I275BQA/viewform?usp=header"
+            >ЗАПИСАТИСЬ</a
+          >
+          <div class="marquee-container">
+            <p class="marquee-text">Бронюйте місце</p>
+          </div>
+          <p class="important-title">важливо</p>
+          <p class="important-text">
+            Після реєстрації приєднайтесь до Telegram-чату, <br />
+            <span>щоб отримати доступ до ефіру</span>
+          </p>
+        </div>
+      </section>
     </main>
-    <footer class="footer"><div class="container"></div></footer>
+    <script type="module" src="./src/js/marquee.js"></script>
   </body>
 </html>
