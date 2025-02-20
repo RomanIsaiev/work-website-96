@@ -80,7 +80,7 @@
 .hero .short-info {
   color: #000;
   font-family: 'Futura PT';
-  font-size: 12px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: 100%; /* 12px */
@@ -103,12 +103,12 @@
 .hero .desc {
   color: #000;
   font-family: 'Futura PT';
-  font-size: 13px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 450;
   line-height: 88%; /* 11.44px */
   letter-spacing: -0.13px;
-  max-width: 168px;
+  max-width: 188px;
 
   margin-bottom: 14px;
 }
@@ -178,6 +178,11 @@
   padding-top: 18px;
 }
 
+.you-get .container {
+  max-width: unset;
+  padding: 0;
+}
+
 .you-get .title {
   color: #000;
   text-align: center;
@@ -216,10 +221,14 @@
 }
 
 .you-get .list-item {
-  padding: 7px;
+  padding: 10px;
   border-radius: 10px;
   background: #eff1ff;
   backdrop-filter: blur(3.999997138977051px);
+
+  width: 100%;
+  max-width: 305px;
+  margin: 0 auto;
 }
 
 .you-get .item-image {
@@ -231,12 +240,12 @@
   color: #000;
   text-align: center;
   font-family: 'Futura PT';
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 93%; /* 11.16px */
   letter-spacing: -0.36px;
-  max-width: 235px;
+  max-width: 265px;
   margin: 0 auto;
 }
 
@@ -272,7 +281,7 @@
 }
 
 .you-get .list-item:nth-child(3) .item-text {
-  max-width: 180px;
+  max-width: 200px;
 }
 
 .free-text {
@@ -324,10 +333,10 @@
   color: #000;
   text-align: center;
   font-family: 'Futura PT';
-  font-size: 13px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 110%; /* 12.35px */
+  line-height: 120%; /* 12.35px */
   text-transform: lowercase;
 
   margin-bottom: 10px;
